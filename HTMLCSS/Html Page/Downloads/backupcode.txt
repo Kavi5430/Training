@@ -1,0 +1,157 @@
+<html>
+    <head><link rel="stylesheet" href="AppStyle.css"/>
+
+    </head>
+    <body>
+        
+<header>
+    <div class="container">
+        <div class="logo">iTcom</div>
+        <nav>
+            <ul>
+                <li><a href="WebApp.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div style="clear: both;"></div>
+    </div>
+</header>
+<section class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+        <div class="content">
+            <div>
+                <img src="team.jpg" alt="Our Team">
+                <h3>Welcome to Our Site</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum lacinia ligula. Integer ut porttitor.</p>
+                <button>Read More</button>
+            </div>
+          
+        </div>
+        <div  class="content">
+            <div>
+                <h3>Our Story</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum lacinia ligula. Integer ut porttitor.</p>
+                <button>Read More</button>
+            </div>
+            <div>
+                <h3>Our Goal</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum lacinia ligula. Integer ut porttitor.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="services">
+    <div class="container">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+        <div class="content">
+            <div>
+                <img src="web-design.png" alt="Web Design">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+            <div>
+                <img src="web-development.png" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+            <div>
+                <img src="app-design.png" alt="App Design">
+                <h3>App Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+            <div>
+                <img src="app-development.png" alt="App Development">
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services">
+    <div class="container">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+        <div class="content">
+            <div>
+                <img src="web-design.png" alt="Web Design">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+            <div>
+                <img src="web-development.png" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+            <div>
+                <img src="app-design.png" alt="App Design">
+                <h3>App Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+            <div>
+                <img src="app-development.png" alt="App Development">
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac lacus eget nunc imperdiet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="footer">
+    <div class="column">
+        <h3>Company</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <h3>Get Help</h3>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Payment Options</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <h3>Online Shop</h3>
+        <ul>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Bag</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Dress</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+            <ul>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">TWITER</a></li>
+                <li><a href="#">INSTA</li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    </body>
+
+</html>

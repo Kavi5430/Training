@@ -1,0 +1,106 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.clogo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display:inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.about, .services, .cta {
+    padding: 50px 0;
+    text-align: center;
+}
+.about .content, .services .content, .cta .content,.content table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about .content div, .services .content div, .cta .content div,.content table {
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+}
+.about img, .services img, .cta img {
+    max-width: 100%;
+}
+.about .content div, .services .content div, .cta .content div ,.content table{
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #1c1c1e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .column {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    margin: 0 2%;
+}
+.footer .column h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.footer .column ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+    
+
+
+.footer .column ul li {
+    margin-bottom: 10px;
+}
+.footer .column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer .social-icons {
+    margin-top: 20px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer .social-icons a i {
+    font-size: 24px;
+}
+
+
+
+
