@@ -1,0 +1,565 @@
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+    <div class="container-fluid">
+ <h2 class="bg-info">JavaScript Arrays - length Property</h2>
+
+<p>Desc : The length property returns the length of an array:</p>
+
+<span >Example  -  ["Banana", "Orange", "Apple", "Mango"]</span>
+<br>
+<br>
+<p id="demo"></p>
+<script>
+    function showres(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+document.getElementById("demo").innerHTML ="Result : The length of array is " + size;
+    }
+</script>
+<button  class="bg-success text-white"  onclick="showres()">Try it yourself</button>
+<div>
+<br>
+<br>
+<div class="container-fluid">
+  <h2 class="bg-info">Javascript Array - toString()</h2>
+<p>Desc : The JavaScript method toString() converts an array to a string of (comma separated) array values</p>
+<span>Example : ["Banana", "Orange", "Apple", "Mango"]</span>
+<br>
+<br>
+<p id="demoToString"></p>
+<button class="bg-success text-white" onclick="showToString()">Try it yourself</button>
+
+<script>
+    function showToString(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demoToString").innerHTML = "Result: Array to String is "  + fruits.toString();
+    }
+</script>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container-fluid">
+<h2 class="bg-primary">JavaScript Array at()</h2>
+<p>Desc : The at() method returns an indexed element from an array.</p>
+<span>Example : fruits = ["Banana", "Orange", "Apple", "Mango"]</span>
+<p id="demoat"></p>
+<button class="bg-success text-white" onclick="showat()">Try it yourself</button>
+<script>
+    function showat(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.at(2);
+
+document.getElementById("demoat").innerHTML ="Result : Index at 2 is " + fruit;
+    }
+</script>
+
+    </div>
+    <br>
+    <br>
+<div class="container-fluid">
+    <h2 class="bg-primary">JavaScript join() Method</h2>
+
+<p>Desc : The join() method joins array elements into a string.</p>
+<p>It this example we have used " * " as a separator between the elements:</p>
+<span>Example:fruits = ["Banana", "Orange", "Apple", "Mango"];</span>
+<p id="demojoin()"></p>
+
+<script>
+function showjoin(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demojoin()").innerHTML = fruits.join(" * ");
+}
+</script>
+<button class="bg-success text-white" onclick="showjoin()">Try it yourself</button>
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">JavaScript pop() Method</h2>
+
+<p>Desc:The pop() method removes the last element from an array.</p>
+<span>Example:The pop() method returns the value that was "popped out"</span>
+
+<p id="demopop()1"></p>
+<p id="demopop()2"></p>
+
+<script>
+    function showpop(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demopop()1").innerHTML = fruits;
+fruits.pop();
+document.getElementById("demopop()2").innerHTML = fruits;
+    }
+</script>
+<button class="bg-success text-white" onclick="showpop()">Try it yourself</button>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">Javascript push() Method</h2>
+<p>Desc:The push() method adds a new element to an array (at the end)</p>
+<span>Example:The push() method returns the new array length fruits = ["Banana", "Orange", "Apple", "Mango"];</span>
+
+
+
+<p id="demopush()1"></p>
+<p id="demopush()2"></p>
+
+<script>
+    function showpush(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+document.getElementById("demopush()1").innerHTML = fruits.push("Kiwi");
+document.getElementById("demopush()2").innerHTML = fruits;
+    }
+</script>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">JavaScript Array shift()</h2>
+     <p>Desc :  The shift() method removes the first array element and "shifts" all other elements to a lower index.</p>
+     <span> Example : The shift() method returns the value that was "shifted out": fruits = ["Banana", "Orange", "Apple", "Mango"];</span>
+     <p id="demoshift()1"></p>
+     <p id="demoshift()2"></p>
+     
+     <script>
+function showshift(){
+     const fruits = ["Banana", "Orange", "Apple", "Mango"];
+     document.getElementById("demoshift()1").innerHTML = fruits.shift();
+     document.getElementById("demoshift()2").innerHTML = fruits;
+}
+     </script>
+     <button class="bg-success text-white" onclick="showshift()">Try it yourself</button>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <h2 class="bg-primary">JavaScript Array unshift()</h2>
+            <p> Desc : The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:</p>
+           <span>Example:The unshift() method returns the new array length:const fruits = ["Banana", "Orange", "Apple", "Mango"];</span>
+            <p id="demounshift()1"></p>
+            <p id="demounshift()2"></p>
+            
+            <script>
+                function  showunshift(){
+            const fruits = ["Banana", "Orange", "Apple", "Mango"];
+            document.getElementById("demounshift()1").innerHTML = fruits.unshift("Lemon");
+            document.getElementById("demounshift()2").innerHTML = fruits;
+                }
+            </script>
+              <button class="bg-success text-white" onclick="showunshift()">Try it yourself</button> 
+              </div>
+              <br>
+              <br>
+              <div class="container-fluid">
+                <h2 class="bg-primary">JavaScript Array delete()</h2>
+                <p> Desc : Using delete() leaves undefined holes in the array.</p>
+                <span> Example : fruits = ["Banana", "Orange", "Apple", "Mango"]; </span>
+                <p id="demodelete()1"></p>
+                <p id="demodelete()2"></p>
+                
+                <script>
+                    function showdelete(){
+                const fruits = ["Banana", "Orange", "Apple", "Mango"];
+                
+                document.getElementById("demodelete()1").innerHTML = "The first fruit is: " + fruits[0];
+                
+                delete fruits[0];
+                
+                document.getElementById("demodelete()2").innerHTML ="The first fruit is: " + fruits[0];
+                    }
+                </script>
+               <button class="bg-success text-white" onclick="showdelete()">Try it yourself</button>  
+                </div>
+                <br>
+                <br>
+                <div class="container-fluid">
+                    <h2 class="bg-primary">JavaScript Array concat()</h2>
+                    <p> Desc : The concat() method creates a new array by merging (concatenating) existing arrays</p>
+                    <span> Example :   (Merging Two Arrays) myGirls = ["Cecilie", "Lone"], myBoys = ["Emil", "Tobias", "Linus"]</span>
+                    <p id="democoncat()"></p>
+
+                    <script>
+                        function showconcat(){
+                    const myGirls = ["Cecilie", "Lone"];
+                    const myBoys = ["Emil", "Tobias", "Linus"];
+                    const myChildren = myGirls.concat(myBoys);
+                    
+                    document.getElementById("democoncat()").innerHTML = myChildren;
+                    }
+                    </script>
+                     <button class="bg-success text-white" onclick="showconcat()">Try it yourself</button>
+
+                </div>
+                <br>
+                <br>
+                <div class="container-fluid">
+                    <h2 class="bg-primary">  Javascript copyWithin()    </h2>
+                    <p> Desc : The copyWithin() method copies array elements to another position in an array</p>
+                    <span>Example : Copy to index 2, the elements from index 0 to 2( Copy to index 2, the elements from index 0 to 2)</span>
+                    <p id="democopywithin()"></p>
+
+                    <script>
+                        function showcopywithin(){
+                    const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Papaya"];
+                    document.getElementById("democopywithin()").innerHTML = fruits.copyWithin(2,0,2);
+                        }
+                    </script>
+                     <button class="bg-success text-white" onclick="showcopywithin()">Try it yourself</button>
+
+                </div>
+                <br>
+                <br>
+                <div class="container-fluid">     
+                    <h2 class="bg-primary"> JavaScript Array flat()</h2>
+                    <p> Desc : The flat() method creates a new array with sub-array elements concatenated to a specified depth.</p>
+                    <p>JavaScript Array flat() is supported in all modern browsers</p>
+<span> Example : myArr = [[1,2],[3,4],[5,6]]</span>
+<p id="demoflat()"></p>
+
+<script>
+    function showflat(){
+const myArr = [[1,2],[3,4],[5,6]];
+
+const newArr = myArr.flat();
+document.getElementById("demoflat()").innerHTML = newArr;
+    }
+</script>
+<button class="bg-success text-white" onclick="showflat()">Try it yourself</button>
+
+<h2 class="bg-primary">JavaScript Array flatMap() </h2>  
+<p> Desc : The flatMap() method first maps all elements of an array and then creates a new array by flattening the array.</p>
+<span> Example : (myArr = [1, 2, 3, 4, 5, 6] => [x, x * 10])</span>
+<p id="demoflatmap()"></p>
+
+<script>
+    function showflatmap(){
+const myArr = [1, 2, 3, 4, 5,6];
+const newArr = myArr.flatMap(x => [x, x * 10]);
+document.getElementById("demoflatmap()").innerHTML = newArr;
+    }
+</script> 
+<button class="bg-success text-white" onclick="showflatmap()">Try it yourself</button>
+
+</div>
+<br>
+<br>
+<div class="container-fluid">     
+    <h2 class="bg-primary"> JavaScript Array splice() </h2>
+    <p> Desc :The splice() method adds new elements to an array  </p>
+    <span>   Example :fruits = ["Banana", "Orange", "Apple", "Mango"] </span>
+    <p id="demosplice()1"></p>
+<p id="demosplice()2"></p>
+
+<script>
+    function showsplice(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demosplice()1").innerHTML = fruits;
+
+fruits.splice(2, 0, "Lemon", "Kiwi");
+document.getElementById("demosplice()2").innerHTML = fruits;
+    }
+</script>
+    <button class="bg-success text-white" onclick="showsplice()">Try it yourself</button>
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">JavaScript Array slice()</h2>
+    <p> Desc :The slice() method slices out a piece of an array into a new array </p>
+    <span> Example : Slice out a part of an array starting from array element 1 ("Orange"),fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"]</span>
+    <p id="demoslice()"></p>
+
+    <script>
+        function showslice(){
+    const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+    const citrus = fruits.slice(1);
+    document.getElementById("demoslice()").innerHTML = fruits + "<br><br>" + citrus;
+    }
+    </script>
+    <button class="bg-success text-white" onclick="showslice()">Try it yourself</button>
+
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Automatic toString()</h2>
+    <p> Desc : JavaScript automatically converts an array to a comma separated string when a primitive value is expected.</p>
+    <span> Example : This is always the case when you try to output an array(fruits = ["Banana", "Orange", "Apple", "Mango"])</span>
+    <p id="demoAutomatic()"></p>
+<script>
+    function showAutomatic(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demoAutomatic()").innerHTML = fruits.toString();
+}
+</script>
+<button class="bg-success text-white" onclick="showAutomatic()">Try it yourself</button>
+ 
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">JavaScript Array search  indexOf() Method</h2>
+    <p>
+        DESC : The indexOf() method searches an array for an element value and returns its position </p>
+        <span> Example :Search an array for the item "Apple":(fruits = ["Apple", "Orange", "Apple", "Mango"]) </span>
+        <p id="demoindexof()"></p>
+
+<script>
+    function showindexof(){
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits.indexOf("Apple") + 1;
+
+document.getElementById("demoindexof()").innerHTML = "Apple is found in position " + position;
+}
+</script>
+
+        
+        <button class="bg-success text-white" onclick="showindexof()">Try it yourself</button>
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Array lastIndexOf()</h2>
+    <p> Desc : Array.lastIndexOf() is the same as Array.indexOf(), but returns the position of the last occurrence of the specified element.</p>
+    <span> Example :  Search an array for the item "Apple":( fruits = ["Apple", "Orange", "Apple", "Mango"])</span>
+    <p id="demolastindexof()"></p>
+
+    <script>
+        function showlastindexof(){
+    const fruits = ["Apple", "Orange", "Apple", "Mango"];
+    let position = fruits.lastIndexOf("Apple") + 1;
+    
+    document.getElementById("demolastindexof()").innerHTML = "Apple is found in position " + position;
+    }
+   </script>
+    
+    <button class="bg-success text-white" onclick="showlastindexof()">Try it yourself</button>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Array Search includes()</h2>
+    <p>  Desc : Array.includes() to arrays. This allows us to check if an element is present in an array (including NaN, unlike indexOf).</p>
+<span> Example : Check if the fruit array contains "Mangofruits = ["Banana", "Orange", "Apple", "Mango"] </span>
+<p id="demoincludes()"></p>
+<p><strong>Note:</strong> The includes method is not supported in Edge 13 (and earlier versions).</p>
+<script>
+    function showincludes(){
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demoincludes()").innerHTML = fruits.includes("Mango");
+}
+</script>
+<button class="bg-success text-white" onclick="showincludes()">Try it yourself</button>
+</div>
+<br>
+<br>
+<div class="container-fluid"> 
+    <h2 class="bg-primary"> JavaScript Array  Search find()</h2>
+    <p> Desc : The find() method returns the value of the first array element that passes a test function.</p>
+    <span>Example :  finds (returns the value of) the first element that is larger than 18: numbers = [4, 9, 16, 25, 29]</span>
+   <p id="demofind()"></p>
+
+<script>
+    
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+document.getElementById("demofind()").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+
+    <button class="bg-success text-white" onclick="showfind()">Try it yourself</button>
+
+</div> 
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Array findIndex()</h2>
+    <p> Desc : The findIndex() method returns the index of the first array element that passes a test function.</p>
+    <span> Example :   finds the index of the first element that is larger than 18 ,numbers= [4, 9, 16, 25, 29]</span>
+    <p id="demofindindex()"></p>
+
+<script>
+const count = [4, 9, 16, 25, 29];
+
+document.getElementById("demofindindex()").innerHTML = "First number over 18 has index " + count.findIndex(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+    <button class="bg-success text-white" onclick="showfindindex()">Try it yourself</button>
+</div> 
+<br>
+<br>
+<div class="container-fluid"> 
+    <h2 class="bg-primary">JavaScript Array findLast() Method </h2>
+<p> Desc : the findLast() method that will start from the end of an array and return the value of the first element that satisfies a condition.</p>
+<span> Example :  temp = [27, 28, 30, 40, 42, 35, 30] </span>
+<p id="demofindlast()"></p>
+
+<script>
+    function showfindlast(){
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let high = temp.findLast(x => x > 40);
+
+document.getElementById("demofindlast()").innerHTML = "The last temperature over 40 was " + high;
+
+}
+</script>
+
+<button class="bg-success text-white" onclick="showfindlast()">Try it yourself</button>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Array findLastIndex() Method</h2>
+    <p> Desc : The findLastIndex() method finds the index of the last element that satisfies a condition.</p>
+    <span>Example :   temp = [27, 28, 30, 40, 42, 35, 30]</span>
+    <p id="demofindlastindex()"></p>
+
+<script>
+    function showfindlastindex(){
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let pos = temp.findLastIndex(x => x > 40);
+
+document.getElementById("demofindlastindex()").innerHTML = "The last temperature over 40 was in position " + pos;
+    }
+</script>
+<button class="bg-success text-white" onclick="showfindlastindex()">Try it yourself</button>
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Sorting an Array</h2>
+    <p> DESC :The sort() method sorts an array alphabetically. </p>
+    <span> Example : fruits = ["Banana", "Orange", "Apple", "Mango"] </span>
+    <p id="demosorting()1"></p>
+    <p id="demosorting()2"></p>
+    
+    <script>
+        function showsorting(){
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demosorting()1").innerHTML = fruits;
+    
+    fruits.sort();
+    document.getElementById("demosorting()2").innerHTML = fruits;
+    
+    }
+    </script>
+
+
+    <button class="bg-success text-white" onclick="showsorting()">Try it yourself</button>
+
+</div>      
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">JavaScript Reversing an Array</h2>
+    <p> Desc : The reverse() method reverses the elements in an array:</p>
+    <span> Example :By combining sort() and reverse(), you can sort an array in descending order: </span>
+    <p>fruits = ["Banana", "Orange", "Apple", "Mango"]</p>
+    
+<p id="demoreverse()"></p>
+
+<script>
+    function showreverse(){
+// Create and display an array:
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.reverse();
+
+document.getElementById("demoreverse()").innerHTML = fruits;
+}
+</script>
+
+    <button class="bg-success text-white" onclick="showreverse()">Try it yourself</button>
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary"> JavaScript Array forEach()</h2>
+    <p> Desc : The forEach() method calls a function (a callback function) once for each array element. </p>
+    <span> Example : Note that the function takes 3 arguments:
+
+        The item value
+        The item index
+        The array itself </span>
+        <p id="demoforeach"></p>
+
+<script>
+    let txt = "";
+    function myFunction(value, index, array) {
+  txt += value + "<br>"; 
+}
+    function fordemo(){
+         txt = "";
+const numeric = [45, 4, 9, 16, 25];
+
+
+numeric.forEach(myFunction);
+document.getElementById("demoforeach").innerHTML = txt;
+    }
+
+
+</script>
+
+    <button class="bg-success text-white" onclick="fordemo()">Try it yourself</button>
+
+
+</div>
+<br>
+<br>
+<div class="container-fluid">
+    <h2 class="bg-primary">  JavaScript Arrays are Not Constants</h2>
+
+<p> Desc : Declaring a constant array does NOT make the elements unchangeable:</p>
+<span> NOTE : The const keyword is not supported in Internet Explorer 10 or earlier.</span>
+
+<p>    The following table defines the first browser versions with full support for the const keyword:
+    
+     </p>
+<p id="demonotconstants()"></p>
+
+<script>
+    function shownotconstants(){
+// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Change an element:
+cars[0] = "Toyota";
+
+// Add an element:
+cars.push("Audi");
+
+// Display the Array:
+document.getElementById("demonotconstants()").innerHTML = cars;
+    } 
+</script>
+<button class="bg-success text-white" onclick="shownotconstants()">Try it yourself</button>
+
+</div>
+</body>
+</html>
